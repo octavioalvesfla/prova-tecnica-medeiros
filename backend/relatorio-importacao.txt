@@ -1,0 +1,29 @@
+=== RELATORIO DE IMPORTACAO ===
+
+Motoristas aceitos: 19
+Viagens aceitas: 38
+Total rejeitado: 22
+
+Rejeicoes:
+  [Motoristas] Linha 10: Categoria de CNH invalida: ""
+  [Motoristas] Linha 15: CPF invalido: "151617181"
+  [Motoristas] Linha 19: Categoria de CNH invalida: "F"
+  [Motoristas] Linha 23: CPF duplicado: 11122233344
+  [Motoristas] Linha 25: Campo ativo invalido ou vazio: ""
+  [Viagens] Linha 9: Motorista nao encontrado na base: 99900011122
+  [Viagens] Linha 10: Motorista inativo nao pode ter viagem: 10111213141
+  [Viagens] Linha 13: Data de retorno anterior a data de saida
+  [Viagens] Linha 15: Motorista inativo nao pode ter viagem: 17181920212
+  [Viagens] Linha 17: Motorista nao encontrado na base: 19202122232
+  [Viagens] Linha 20: Motorista inativo nao pode ter viagem: 22232425262
+  [Viagens] Linha 22: Motorista nao encontrado na base: 24252627282
+  [Viagens] Linha 29: Motorista nao encontrado na base: 99900011122
+  [Viagens] Linha 35: Motorista nao encontrado na base: 99988877766
+  [Viagens] Linha 38: Motorista nao encontrado na base: 24252627282
+  [Viagens] Linha 40: Motorista ja possui viagem EM_ANDAMENTO: 11122233344
+  [Viagens] Linha 42: Viagem duplicada
+  [Viagens] Linha 45: Motorista inativo nao pode ter viagem: 44455566677
+  [Viagens] Linha 49: Status invalido ou vazio: ""
+  [Viagens] Linha 51: Motorista nao encontrado na base: 19202122232
+  [Viagens] Linha 54: Motorista inativo nao pode ter viagem: 22232425262
+  [Viagens] Linha 56: Motorista nao encontrado na base: 24252627282

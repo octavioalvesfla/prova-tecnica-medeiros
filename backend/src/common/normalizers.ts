@@ -99,21 +99,3 @@ export function normalizeStatus(value: string): string | null {
 
   return null;
 }
-
-console.log(normalizeBoolean('Sim'));
-console.log(normalizeBoolean('SIM'));
-console.log(normalizeBoolean('S'));
-console.log(normalizeBoolean('1'));
-console.log(normalizeBoolean('Nao'));
-console.log(normalizeBoolean('N'));
-console.log(normalizeBoolean('0'));
-console.log(normalizeBoolean(''));
-
-console.log(normalizeStatus('CONCLUIDA'));
-console.log(normalizeStatus('concluida'));
-console.log(normalizeStatus('concluída'));
-console.log(normalizeStatus('EM_ANDAMENTO'));
-console.log(normalizeStatus('Em andamento'));
-console.log(normalizeStatus('EM ANDAMENTO'));
-console.log(normalizeStatus('em_andamento'));
-console.log(normalizeStatus(''));
